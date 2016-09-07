@@ -37,7 +37,7 @@ new PlayerCache[MAX_PLAYERS][E_PLAYER];
 public OnGameModeInit()
 {
 	mysql_init(LOG_ONLY_ERRORS);
-	mysql_connect("zmien", "zmien", "zmien", "zmien");
+	mysql_connect("niemamdruzyny.pl", "root", "rp", "Niemahasla5");
 
 	UsePlayerPedAnims();
 	DisableInteriorEnterExits();
